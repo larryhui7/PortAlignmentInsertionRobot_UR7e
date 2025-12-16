@@ -1,0 +1,26 @@
+image_width: 1920
+image_height: 1080
+camera_name: c922_1080p
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1442.98246,    0.     ,  926.4513 ,
+            0.     , 1448.83314,  525.71009,
+            0.     ,    0.     ,    1.     ]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.031413, -0.098427, -0.001036, -0.000732, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1433.5022 ,    0.     ,  922.66411,    0.     ,
+            0.     , 1451.34473,  524.56323,    0.     ,
+            0.     ,    0.     ,    1.     ,    0.     ]
